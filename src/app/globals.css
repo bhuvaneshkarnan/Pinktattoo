@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Candrika';
+  src: url('/fonts/Candrika.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* Brand Colors */
+  --color-brand-pink: #E8246A;
+  --color-pink-hover: #FF3E85;
+  --color-pink-muted: #F5A0C0;
+  --color-pink-glow: #E8246A33;
+  --color-gold-accent: #C9A84C;
+  --color-bg-base: #000000;
+  --color-bg-surface: #000000;
+  --color-bg-elevated: #0C0B0E;
+  --color-border-ink: #1C1A22;
+  --color-text-primary: #F0EEF5;
+  --color-text-secondary: #A89FC0;
+  --color-text-disabled: #5C576B;
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-display: 'Candrika', serif;
+  --font-serif: 'Candrika', serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+  --font-label: var(--font-inter), system-ui, sans-serif;
+  --font-handwriting: var(--font-caveat), cursive;
+}
+
+:root {
+  --background: #000000; /* Pure Black */
+  --foreground: #F0EEF5; /* Off-White */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.025em; /* Add letter spacing for body copy readability */
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif, .font-display {
+  letter-spacing: 0.08em !important; /* Generous letter spacing for all Candrika text */
+}
+
+/* Custom Visual Styles */
+
+/* Tape visual effect for Polaroid */
+.polaroid-tape {
+  background-color: rgba(240, 238, 245, 0.15);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-left: 1px dashed rgba(255,255,255,0.25);
+  border-right: 1px dashed rgba(255,255,255,0.25);
+}
+
+/* Custom focus rings for WCAG 2.4.7 */
+.focus-ring-custom {
+  outline: 2px solid #E8246A;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px rgba(232, 36, 106, 0.2);
+}
+
+/* Hide scrollbar for clean horizontal scroll on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Scroll reveal class with blur transition */
+.reveal-on-scroll {
+  opacity: 0;
+  filter: blur(12px);
+  transform: translateY(30px);
+  transition: 
+    opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), 
+    filter 1.2s cubic-bezier(0.16, 1, 0.3, 1), 
+    transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, filter, transform;
+}
+.reveal-on-scroll.active {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+/* Staggered children reveal */
+.reveal-stagger > * {
+  opacity: 0;
+  filter: blur(10px);
+  transform: translateY(20px);
+  transition: 
+    opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), 
+    filter 1.2s cubic-bezier(0.16, 1, 0.3, 1), 
+    transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, filter, transform;
+}
+.reveal-stagger.active > *:nth-child(1) { transition-delay: 0.05s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(2) { transition-delay: 0.15s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(3) { transition-delay: 0.25s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(4) { transition-delay: 0.35s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(5) { transition-delay: 0.45s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(6) { transition-delay: 0.55s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(7) { transition-delay: 0.65s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(8) { transition-delay: 0.75s; opacity: 1; filter: blur(0); transform: translateY(0); }
+.reveal-stagger.active > *:nth-child(9) { transition-delay: 0.85s; opacity: 1; filter: blur(0); transform: translateY(0); }
+
+/* Grid paper background for timeline cards */
+.timeline-grid-paper {
+  background-size: 16px 16px;
+  background-image: 
+    linear-gradient(to right, rgba(44, 43, 41, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(44, 43, 41, 0.05) 1px, transparent 1px);
+  background-color: #E2E1DA;
+}
+
+/* Ensure all body description copy has extra size and spacious tracking for ultimate legibility */
+.font-body, p, li, span.font-body {
+  font-size: 0.975rem !important; /* Slightly larger, crisp readable size */
+  letter-spacing: 0.04em !important; /* Generous letter spacing for all Inter copy */
+  line-height: 1.75 !important;
+}
