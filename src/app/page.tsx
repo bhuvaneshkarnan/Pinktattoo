@@ -66,7 +66,7 @@ export default function Home() {
         
         {/* Typography Block */}
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full text-center relative z-10 space-y-6">
-          <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5.2rem] font-normal tracking-wide text-[#E5E4DE] leading-[1.1] max-w-5xl mx-auto">
+          <h1 className="font-serif text-[2.75rem] sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5.2rem] font-normal tracking-wide text-[#E5E4DE] leading-[1.1] max-w-5xl mx-auto">
             The Kind of Tattoo <br />
             You Won&apos;t Regret.
           </h1>
@@ -214,7 +214,7 @@ export default function Home() {
                 <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
                   Meet the Artist
                 </span>
-                <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide">
+                <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide">
                   Pink Tattoo Girl
                 </h2>
               </div>
@@ -275,7 +275,7 @@ export default function Home() {
             <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
               Curated Works
             </span>
-            <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide">
+            <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide">
               On The Board
             </h2>
           </div>
@@ -368,7 +368,7 @@ export default function Home() {
             <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
               Flash Book
             </span>
-            <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
+            <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
               Claimable Flash
             </h2>
             <p className="mt-4 font-body text-sm text-[#8E8D88] max-w-xl leading-relaxed">
@@ -475,7 +475,7 @@ export default function Home() {
             <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
               Testimonials
             </span>
-            <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
+            <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
               Client Stories
             </h2>
             <p className="mt-4 font-body text-sm text-[#8E8D88] max-w-xl leading-relaxed">
@@ -563,7 +563,7 @@ export default function Home() {
                 <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
                   The Space
                 </span>
-                <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
+                <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
                   Studio Haven
                 </h2>
               </div>
@@ -596,7 +596,7 @@ export default function Home() {
             <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
               Guidelines
             </span>
-            <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
+            <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
               Care & Prep
             </h2>
             <p className="mt-4 font-body text-sm text-[#8E8D88] max-w-xl leading-relaxed">
@@ -677,7 +677,7 @@ export default function Home() {
             <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
               Common Queries
             </span>
-            <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
+            <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
               Frequently Asked
             </h2>
             <p className="mt-4 font-body text-sm text-[#8E8D88] max-w-xl leading-relaxed">
@@ -741,7 +741,7 @@ export default function Home() {
                 <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
                   Get in touch
                 </span>
-                <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
+                <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-3">
                   Let&apos;s Create <br />
                   <span className="text-brand-pink">Something Permanent.</span>
                 </h2>

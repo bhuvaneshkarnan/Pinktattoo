@@ -161,7 +161,7 @@ export default function ProcessTimeline() {
             <span className="font-label text-xs uppercase tracking-widest text-brand-pink font-semibold block">
               The Journey
             </span>
-            <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-2">
+            <h2 className="font-serif text-[2.5rem] sm:text-6xl lg:text-7xl font-normal text-[#E5E4DE] leading-[1.1] tracking-wide mt-2">
               From Idea <br />
               To Ink
             </h2>
